@@ -31,25 +31,25 @@ teste_2:
 ##### R2 START MODIFIQUE AQUI START #####
 
 e_crescente:
-  addi t1, a1, -1         
-  beqz t1, crescente     
-  mv t2, a0              
+  addi t1, a1, -1           # t1 = n - 1         
+  beqz t1, crescente        # se n <= 1, já é crescente    
+  mv t2, a0                 # t2 = vetor    
 
 loop:
-  lw t3, 0(t2)            
-  lw t4, 4(t2)            
-  bgt t3, t4, n_crescente  
-  addi t2, t2, 4          
-  addi t1, t1, -1         
-  bnez t1, loop          
+  lw t3, 0(t2)              # t3 = vetor[i]
+  lw t4, 4(t2)              # t4 = vetor[i+1]
+  bgt t3, t4, n_crescente   # se vetor[i] > vetor[i+1], não é crescente
+  addi t2, t2, 4            # i++
+  addi t1, t1, -1           # n--
+  bnez t1, loop             # se n > 0, continua o loop
 
 crescente:
-  li a0, 1                
-  jr ra                   
+  li a0, 1                  # se chegou aqui, é crescente
+  jr ra                     # retorna
 
 n_crescente:
-  li a0, 0                
-  jr ra                   
+  li a0, 0                  # se chegou aqui, não é crescente
+  jr ra                     # retorna                   
 
 ##### R2 END MODIFIQUE AQUI END #####
 
