@@ -1,0 +1,13 @@
+.ipynb_checkpoints
+__pycache__
+env
+data/clubes/*
+data/league/*
+data/processed/*
+!data/clubes/.gitkeep
+!data/league/.gitkeep
+!data/processed/.gitkeep
+test.ipynb
+data/comparison_plots/*
+data/processed/*
+data/processed/gringos_df.csv
