@@ -1,0 +1,15 @@
+Propriedades
+1. Reflexiva: V
+2. Irreflexiva: F
+(0, 0), (1, 1)
+3. Simetrica: V
+4. Anti-simetrica: V
+5. Assimetrica: F
+6. Transitiva: V
+
+Relacao de equivalencia: V
+Relacao de ordem parcial: V
+
+Fecho reflexivo da relacao: R
+Fecho simetrico da relacao: R
+Fecho transitivo da relacao: R
