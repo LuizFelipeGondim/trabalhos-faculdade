@@ -1,0 +1,44 @@
+# Prerequisites
+*.d
+.vscode
+exec
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Ignorar arquivos dentro de obj e bin, mas manter as pastas
+obj/*
+bin/*
+
+# Exceto pelo arquivo marcador
+!obj/.gitkeep
+!bin/.gitkeep
+cad*
+dados.csv
