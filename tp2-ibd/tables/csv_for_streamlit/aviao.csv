@@ -1,0 +1,17 @@
+﻿id_aviao,modelo,assentos,selo_anac,motor
+1,Airbus A319,144,C,IAE/CFM
+2,Airbus A320,174,C,IAE/CFM
+3,Airbus A320neo,174,C,PW
+4,Airbus A321,224,B,IAE/CFM
+5,Airbus A321neo,228,C,PW
+6,Airbus A330-200,278,A,
+7,Airbus A330-900,298,A,TRENT
+8,ATR-72-600,70,A,PW
+9,Cessna 208B,9,C,PT6A-114A
+10,Embraer E-195,118,B,CF34-10E
+11,Embraer E195-E2,136,B,PW
+12,Boeing 737-700,138,A,CFMI
+13,Boeing 737-800,186,A,CFMI
+14,Boeing 737 MAX 8,186,A,CFMI
+15,Boeing 777-300ER,410,A,GE
+16,Boeing 787-9,303,A,RR

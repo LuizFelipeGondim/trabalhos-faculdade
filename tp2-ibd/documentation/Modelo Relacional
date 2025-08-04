@@ -1,0 +1,17 @@
+Tabela: orgao
+codigo_orgao (PK), nome_orgao, codigo_orgao_superior (FK)
+
+Tabela: orgao_bilhete
+localizador (PK), codigo_orgao (PK)
+
+Tabela: bilhete
+localizador (PK), data_emissao, situacao_bilhete, valor_bilhete, percentual_desconto_aplicado, valor_tarifa_comercial, valor_tarifa_governo, valor_tarifa_embarque, valor_multas, valor_reembolso, diferenca_tarifa, no_show, remarcado, cancelado, classe_tarifaria, data_embarque, numero_pcdp, id_companhia_aerea (FK)
+
+Tabela: companhia_aerea
+id_companhia_aerea (PK), nome_companhia, regra_tarifaria
+
+Tabela: companhia_aerea
+id_companhia_aerea (PK), id_aviao (PK), inativos, ativos
+
+Tabela: aviao
+id_aviao (PK), modelo, assentos, selo_anac, motor
